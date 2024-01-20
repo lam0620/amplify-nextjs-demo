@@ -1,0 +1,11 @@
+https://docs.amplify.aws/javascript/build-a-backend/auth/set-up-auth/
+https://docs.amplify.aws/nextjs/start/getting-started/setup/
+
+1. Create nextjs project 
+	npx create-next-app app-name
+2. Initialize a new backend
+	amplify init
+3. Install Amplify Libraries
+	npm install aws-amplify @aws-amplify/adapter-nextjs
+4. Build an Authentication experience using the Authenticator
+	npm install aws-amplify @aws-amplify/ui-react
